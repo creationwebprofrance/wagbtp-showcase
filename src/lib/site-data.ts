@@ -1,10 +1,9 @@
 import logoAsset from "@/assets/logo_wagbtp.png";
 import accueilHeroAsset from "@/assets/accueil-hero-villa.png";
-import airFranceCargoAsset from "@/assets/airfrance-cargo-bornes-recharge.jpg";
+import airFranceCargoAsset from "@/assets/airfrance-cargo-parking-bornes.jpg";
 import cantineMontmirailApresAsset from "@/assets/facade-cantine-montmirail-renovee.jpg";
 import cantineMontmirailAvantAsset from "@/assets/cantine-montmirail-avant.png";
 import gendarmerieAvantAsset from "@/assets/gendarmerie-avant.jpg";
-import gendarmerieApresAsset from "@/assets/gendarmerie-apres.jpg";
 import gendarmerieApresSurvilliersAsset from "@/assets/gendarmerie-survilliers-apres.png";
 import gendarmerieGrosOeuvreAsset from "@/assets/gendarmerie-gros-oeuvre.jpg";
 import gendarmerieInterieurAsset from "@/assets/gendarmerie-interieur.jpg";
@@ -204,14 +203,14 @@ export const methode = [
 
 export const realisationsPhares = [
   {
-    image: gendarmerieApresAsset,
-    alt: "Gendarmerie nationale de Survilliers livrée après travaux",
+    image: gendarmerieApresSurvilliersAsset,
+    alt: "Entrée de la gendarmerie nationale de Survilliers après travaux, drapeau français et façade marquée Gendarmerie nationale",
     cible: "Marché public",
     projet: "Gendarmerie nationale : antenne de télécommunications, gros œuvre, ravalement",
   },
   {
     image: airFranceCargoAsset,
-    alt: "Bornes de recharge électrique installées sur le parking d'Air France-Cargo",
+    alt: "Parking d'Air France-Cargo après installation des bornes de recharge électrique",
     cible: "Entreprise",
     projet: "Air France-Cargo : parking, installation de bornes de recharge électrique",
   },
