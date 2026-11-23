@@ -8,7 +8,7 @@ import { TEMPLATES } from './registry'
 // Envoi 100% autonome via l'API HTTP de Resend (aucune dépendance externe).
 
 const DEFAULT_SITE_NAME = 'WAG BTP'
-const DEFAULT_FROM_EMAIL = 'contact@wagbtp.fr'
+const DEFAULT_FROM_EMAIL = 'contact@wagconstruction.fr'
 
 type MailConfig = {
   apiKey: string

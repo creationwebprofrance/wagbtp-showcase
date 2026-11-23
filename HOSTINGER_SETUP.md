@@ -9,7 +9,7 @@ Le formulaire de contact envoie deux e-mails via l'API Resend :
 1. **Notification interne** → `contact.wagconstruction@gmail.com`
 2. **Accusé de réception** → l'adresse saisie par le demandeur
 
-L'expéditeur affiché est : `WAG BTP <contact@wagbtp.fr>`.
+L'expéditeur affiché est : `WAG BTP <contact@wagconstruction.fr>`.
 
 ## 1. Créer une clé API dans Resend
 
@@ -20,16 +20,16 @@ L'expéditeur affiché est : `WAG BTP <contact@wagbtp.fr>`.
 5. Nommer la clé, par exemple `WAG-BTP Hostinger`
 6. Copier la clé (elle commence par `re_`)
 
-## 2. Vérifier le domaine `wagbtp.fr` dans Resend
+## 2. Vérifier le domaine `wagconstruction.fr` dans Resend
 
 1. Dans Resend, aller dans **Domains** → **Add domain**
-2. Saisir `wagbtp.fr`
+2. Saisir `wagconstruction.fr`
 3. Resend fournit des enregistrements DNS à ajouter chez Hostinger (DKIM, SPF, etc.)
 4. Ajouter ces enregistrements DNS dans le panneau Hostinger
 5. Revenir dans Resend et cliquer sur **Verify**
 6. Attendre que le statut passe en **Verified**
 
-> **Important** : sans cette vérification, Resend refusera d'envoyer des e-mails depuis `contact@wagbtp.fr`.
+> **Important** : sans cette vérification, Resend refusera d'envoyer des e-mails depuis `contact@wagconstruction.fr`.
 
 ## 3. Configurer les variables de façon persistante
 
@@ -49,7 +49,7 @@ Ajouter :
 ```bash
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxx
 MAIL_FROM_NAME="WAG BTP"
-MAIL_FROM_EMAIL=contact@wagbtp.fr
+MAIL_FROM_EMAIL=contact@wagconstruction.fr
 ```
 
 Puis protéger le fichier :
@@ -80,7 +80,7 @@ chmod 600 ~/domains/wagbtp.fr/.env
 ```
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxx
 MAIL_FROM_NAME=WAG BTP
-MAIL_FROM_EMAIL=contact@wagbtp.fr
+MAIL_FROM_EMAIL=contact@wagconstruction.fr
 ```
 
 4. Enregistrer : Hostinger redéploie l'application et conserve ces valeurs pour
@@ -121,7 +121,7 @@ touch ~/domains/wagbtp.fr/hbuilds/current/nodejs/tmp/restart.txt
 |---|---|---|---|
 | `RESEND_API_KEY` | `re_...` | Oui | Authentification Resend |
 | `MAIL_FROM_NAME` | `WAG BTP` | Non (défaut : WAG BTP) | Nom de l'expéditeur |
-| `MAIL_FROM_EMAIL` | `contact@wagbtp.fr` | Non (défaut : contact@wagbtp.fr) | Adresse d'expédition |
+| `MAIL_FROM_EMAIL` | `contact@wagconstruction.fr` | Non (défaut : contact@wagconstruction.fr) | Adresse d'expédition |
 
 ## Sécurité
 
@@ -135,5 +135,5 @@ touch ~/domains/wagbtp.fr/hbuilds/current/nodejs/tmp/restart.txt
 | Symptôme | Cause probable | Solution |
 |---|---|---|
 | "RESEND_API_KEY n'est pas configurée" | Variable et fichier persistant manquants | Créer `~/domains/wagbtp.fr/.env`, puis redéployer |
-| Envoi refusé par Resend | Domaine `wagbtp.fr` non vérifié | Vérifier le domaine dans Resend |
+| Envoi refusé par Resend | Domaine `wagconstruction.fr` non vérifié | Vérifier le domaine dans Resend |
 | E-mail dans les spam | Authentification DKIM/SPF manquante | Vérifier les enregistrements DNS |
