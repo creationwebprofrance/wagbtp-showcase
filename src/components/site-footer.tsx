@@ -9,7 +9,9 @@ export function SiteFooter() {
     <footer className="surface-deep blueprint border-t border-anthracite-foreground/10">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3 lg:px-10">
         <div>
-          <LogoWagBtp onDark />
+          <div className="inline-flex rounded-xl bg-secondary px-4 py-3">
+            <LogoWagBtp onDark />
+          </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-anthracite-foreground/60">
             Entreprise générale de bâtiment tous corps d'état depuis {company.depuis}, en
             France et en Guadeloupe.

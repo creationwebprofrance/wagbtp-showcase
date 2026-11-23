@@ -6,8 +6,8 @@ export function LogoWagBtp({ onDark = false }: { onDark?: boolean }) {
     <img
       src={logo}
       alt="WAG-BTP"
-      width={786}
-      height={918}
+      width={1579}
+      height={585}
       className={onDark ? "h-20 w-auto shrink-0 sm:h-24" : "h-14 w-auto shrink-0 sm:h-16 lg:h-[4.5rem]"}
     />
   );
