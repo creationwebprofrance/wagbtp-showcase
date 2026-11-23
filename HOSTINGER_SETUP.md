@@ -6,7 +6,7 @@ Ce document explique comment faire fonctionner l'envoi des e-mails une fois le s
 
 Le formulaire de contact envoie deux e-mails via l'API Resend :
 
-1. **Notification interne** → `wagbtp@gmail.com`
+1. **Notification interne** → `contact.wagconstruction@gmail.com`
 2. **Accusé de réception** → l'adresse saisie par le demandeur
 
 L'expéditeur affiché est : `WAG BTP <contact@wagbtp.fr>`.
@@ -112,7 +112,7 @@ touch ~/domains/wagbtp.fr/hbuilds/current/nodejs/tmp/restart.txt
 1. Ouvrir le site en production
 2. Aller sur la page **Contact**
 3. Remplir et envoyer une demande de devis
-4. Vérifier que `wagbtp@gmail.com` reçoit la notification
+4. Vérifier que `contact.wagconstruction@gmail.com` reçoit la notification
 5. Vérifier que l'adresse saisie dans le formulaire reçoit l'accusé de réception
 
 ## Variables récapitulatives

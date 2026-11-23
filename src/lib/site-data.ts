@@ -160,7 +160,7 @@ export const company = {
     "WAG BTP pilote vos travaux tous corps d'état, de la conception à la concrétisation, avec un interlocuteur unique et un suivi de chantier rigoureux.",
   phone: "01 86 04 19 91",
   phoneHref: "tel:+33186041991",
-  email: "wagbtp@gmail.com",
+  email: "contact.wagconstruction@gmail.com",
   address: "59 rue de Ponthieu, 75008 Paris",
   zones: "France et Guadeloupe",
   delaiReponse: "Réponse sous 24 à 48h ouvrées",

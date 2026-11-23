@@ -120,7 +120,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           description:
             "Entreprise générale de bâtiment tous corps d'état depuis 2013 : rénovation et construction pour particuliers et entreprises en France et en Guadeloupe.",
           telephone: "+33186041991",
-          email: "wagbtp@gmail.com",
+          email: "contact.wagconstruction@gmail.com",
           foundingDate: "2013",
           address: {
             "@type": "PostalAddress",
