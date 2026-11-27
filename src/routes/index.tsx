@@ -9,17 +9,17 @@ import { chiffres, company, img, methode } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WAG BTP — Entreprise générale tous corps d'état en France" },
+      { title: "WAG BTP réalise vos travaux tous corps d'état, de la visite à la réception" },
       {
         name: "description",
         content:
           "WAG BTP, entreprise générale de bâtiment tous corps d'état depuis 2013 : rénovation et construction pour particuliers et entreprises en France et Guadeloupe. Devis gratuit.",
       },
-      { property: "og:title", content: "WAG BTP réalise votre habitat idéal clé en main" },
+      { property: "og:title", content: "WAG BTP réalise vos travaux tous corps d'état, de la visite à la réception" },
       {
         property: "og:description",
         content:
-          "Rénovation et construction tous corps d'état, clé en main. Un interlocuteur unique, un chantier suivi. France et Guadeloupe.",
+          "Rénovation et travaux tous corps d'état, coordonnés par un interlocuteur unique, avec un chantier suivi jusqu'à la réception.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -40,13 +40,13 @@ function Accueil() {
             Tous corps d'état · depuis {company.depuis}
           </p>
           <h1 className="mt-6 text-[2.25rem] leading-[1.05] text-primary-foreground sm:text-[3.25rem] lg:text-[3.5rem]">
-            WAG BTP réalise <span className="text-gold">votre habitat idéal</span> clé en main.
+            WAG BTP réalise <span className="text-gold">vos travaux tous corps d'état</span>, de la visite à la réception.
           </h1>
           <p className="mt-6 font-display text-xl font-bold text-primary-foreground">
             Rénovation, Construction et Extension.
           </p>
           <p className="mt-4 max-w-md text-lg leading-relaxed text-primary-foreground/85">
-            WAG BTP pilote vos travaux tous corps d'état, de la conception à la concrétisation, avec
+            WAG BTP pilote vos travaux tous corps d'état, de l'étude de votre besoin à la réception des travaux, avec
             un interlocuteur unique et un suivi de chantier rigoureux.
           </p>
 

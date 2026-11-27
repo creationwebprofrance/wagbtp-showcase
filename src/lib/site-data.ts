@@ -157,7 +157,7 @@ export const company = {
   name: "WAG BTP",
   tagline: "Votre vision, notre expertise chantier",
   promesse:
-    "WAG BTP pilote vos travaux tous corps d'état, de la conception à la concrétisation, avec un interlocuteur unique et un suivi de chantier rigoureux.",
+    "WAG BTP pilote vos travaux tous corps d'état, de l'étude de votre besoin à la réception des travaux, avec un interlocuteur unique et un suivi de chantier rigoureux.",
   phone: "01 86 04 19 91",
   phoneHref: "tel:+33186041991",
   email: "contact.wagconstruction@gmail.com",
@@ -216,9 +216,9 @@ export const realisationsPhares = [
   },
   {
     image: clotureAsset,
-    alt: "Pavillon livré clé en main, façade et clôture rénovées",
+    alt: "Pavillon livré, façade et clôture rénovées",
     cible: "Particulier",
-    projet: "Pavillon construit clé en main",
+    projet: "Pavillon construit tous corps d'état",
   },
 ];
 

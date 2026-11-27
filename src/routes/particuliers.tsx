@@ -20,7 +20,7 @@ export const Route = createFileRoute("/particuliers")({
       {
         name: "description",
         content:
-          "Salle de bain, cuisine, séjour, rénovation complète, construction, extension et terrasse : WAG BTP pilote vos travaux clé en main en France et Guadeloupe.",
+          "Salle de bain, cuisine, séjour, rénovation complète, construction, extension et terrasse : WAG BTP pilote vos travaux tous corps d'état en France et Guadeloupe.",
       },
       { property: "og:title", content: "Particuliers — Rénovation et construction | WAG BTP" },
       {
@@ -109,7 +109,7 @@ function Particuliers() {
             <img src={heroDaru} alt="Appartement haussmannien rénové rue Daru, parquet en point de Hongrie et moulures" width={960} height={1280} className="aspect-4/5 w-full object-cover" />
             <figcaption className="absolute -bottom-4 left-0 bg-gold px-5 py-3 sm:-left-6">
               <span className="block font-display text-lg font-extrabold text-gold-foreground">
-                Clé en main
+                Tous corps d'état
               </span>
               <span className="block text-xs text-gold-foreground/75">
                 De l'étude à la réception
